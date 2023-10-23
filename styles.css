@@ -2,9 +2,13 @@
 
 /* Change the fonts here! */
 
-h1 {
+ /* h1 {
 	font-family: "Zen Dots";
-	font-size: 36px;
+	font-size: 10px;
+    color: green;
+}  */
+.testName{
+    color: green;
 }
 
 h2 {
