@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Dots&display=swap');
+
+/* Change the fonts here! */
+
+h1 {
+	font-family: "Zen Dots";
+	font-size: 36px;
+}
+
+h2 {
+	font-family: "Zen Dots";
+}
+
+p, a, li {
+	font-family: "Roboto";
+	font-size: 24px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: blue;
+  color: white;
+}
