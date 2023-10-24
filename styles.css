@@ -30,6 +30,9 @@ html {
 .topnav a.active {
   background-color: #55AA00;
   color: white;
+  font-size: 17px;
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 a {
