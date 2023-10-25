@@ -1,86 +1,69 @@
-html {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: larger;
-  font-weight: 300;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Add a black background color to the top navigation */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
 .topnav {
-  background-color: #fdf8f8;
   overflow: hidden;
+  background-color: #333;
 }
 
-/* Style the links inside the navigation bar */
+/* Style the topnav links */
 .topnav a {
   float: left;
-  color: #010000;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
-/* Change the color of links on hover */
+/* Change color on hover */
 .topnav a:hover {
-  background-color: #0e6831;
+  background-color: #ddd;
   color: black;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #55AA00;
-  color: white;
-  font-size: 17px;
-  font-family: 'Source Sans Pro', sans-serif;
-
+/* Style the content */
+.content {
+  background-color: #ddd;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
 }
 
-a {
-  text-decoration: none;
-  color: #1565c0;
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
 }
+</style>
+</head>
+<body>
 
-a:hover {
-  color: #217ee7;
-}
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
 
-#content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%) ;
-  text-align: center;
-  max-width: 520px;
-  padding: 32px;
-  line-height: 1.6em;
-}
+<div class="content">
+</div>
 
-.avatar {
-  border-radius: 50%;
-  width: 150px;
-}
+<div class="footer">
+  <p>Footer</p>
+</div>
 
-.icons {
-  list-style-type: none;
-  font-size: xx-large;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  max-width: 320px;
-  margin: 1em auto;
-}
-
-.icons li {
-  display: inline;
-  width: 42px;
-}
-
-.icons a {
-  color: rgb(5, 208, 86);
-}
-
-.icons a:hover {
-  color: #1565c0;
-}
+</body>
+</html>
