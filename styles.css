@@ -22,7 +22,7 @@ html {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #0e6831;
+  background-color: #3d7604;
   color: black;
 }
 
@@ -78,7 +78,7 @@ a:hover {
 }
 
 .icons a {
-  color: rgb(5, 208, 86);
+  color: #55AA00;
 }
 
 .icons a:hover {
