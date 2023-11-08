@@ -3,15 +3,9 @@ html {
   font-size: larger;
   font-weight: 300;
 }
-.header {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-}
-html body {
-  padding-top: 65px;
-}
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 
 /* Add a black background color to the top navigation */
 .topnav {
