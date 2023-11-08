@@ -3,6 +3,15 @@ html {
   font-size: larger;
   font-weight: 300;
 }
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+html body {
+  padding-top: 65px;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
