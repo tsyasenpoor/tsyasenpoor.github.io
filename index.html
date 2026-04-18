@@ -1,81 +1,136 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous">
-</script>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Define title -->
     <title>Tala Yasenpoor</title>
+    <meta name="description" content="Tala Yasenpoor — PhD candidate in mathematics at the University of Connecticut, working toward computational biology." />
 
-    <!-- Include favicon. Use, e.g., https://favicon.io/ -->
     <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
 
-    <!-- Include style sheets -->
-    <link rel="stylesheet" href="styles.css" />
-
-    <!-- Fonts from Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
-    <!-- Load FontAwesome (for icons) -->
+    <link rel="stylesheet" href="styles.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
       integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-
-    <!-- Load Academicons (for more icons) -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css"
       integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
 
   <body>
-    <div class="topnav"> 
-	  <a class="active" href="index.html">Home</a> 
-	  <a href="cv.html">CV</a>
-	</div>
-    <section id="content">
-      <!-- Avatar image -->
-      <img src="me.jpg" alt="Tala Yasenpoor" class="avatar" />
+    <header class="site-nav" aria-label="Primary">
+      <div class="nav-inner">
+        <a href="#about" class="brand">Tala Yasenpoor</a>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#cv">CV</a>
+        </nav>
+      </div>
+    </header>
 
-      <!-- Text -->
-      <h1>Hi, I'm Tala!</h1>
-	<p>
-		A 3rd year PhD student at UConn, looking for a data science internship position in a forward-thinking company where I can use my extensive math background, and ongoing self-improvement to drive innovation and contribute to the growth of the organization while also advancing my own professional development.
-	</p>
-      <p>
-        Please feel free to get in touch!
-      </p>
+    <main>
+      <section id="about" class="hero">
+        <img src="me.jpg" alt="Tala Yasenpoor" class="avatar" />
+        <div class="hero-text">
+          <p class="eyebrow">PhD candidate &middot; University of Connecticut</p>
+          <h1>Tala Yasenpoor</h1>
+          <p class="lede">
+            I work at the intersection of mathematics and the life sciences,
+            and I'm preparing for postdoc positions in computational biology.
+          </p>
+          <ul class="icons" aria-label="Contact and profiles">
+            <li>
+              <a href="mailto:tsyasenpoor@uconn.edu" aria-label="Email" title="Email">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://scholar.google.com/citations?user=zvXbs5EAAAAJ&amp;hl=en" aria-label="Google Scholar" title="Google Scholar">
+                <i class="ai ai-google-scholar" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/tsyasenpoor" aria-label="GitHub" title="GitHub">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/tala-yasinpoor-b992a4159/" aria-label="LinkedIn" title="LinkedIn">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://math.uconn.edu/person/tala-yasenpoor/" aria-label="UConn department page" title="UConn">
+                <i class="fas fa-university" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-      <!-- Icons -->
-      <ul class="icons">
-        <li>
-          <a href="https://math.uconn.edu/person/tala-yasenpoor/" title="Institutional Website"><i class="fas fa-university"></i></a>
-        </li>
-        <li>
-          <a href="mailto:tsyasenpoor@uconn.edu" title="Email"><i class="fas fa-envelope"></i></a>
-        </li>
-        <li>
-          <a href="https://github.com/tsyasenpoor" title="GitHub"><i class="fab fa-github"></i></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/tala-yasinpoor-b992a4159/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        </li>
-      </ul>
-    </section>
+      <section id="research">
+        <p class="eyebrow">01 &mdash; Research</p>
+        <h2>Between mathematics and biology</h2>
+        <p>
+          My work lives between mathematical structure and data-driven
+          questions in biology. I'm interested in bringing tools from
+          mathematics to problems in computational biology, and in
+          collaborations that translate mathematical insight into concrete
+          biological understanding.
+        </p>
+        <p class="muted">
+          <em>More specific research interests and projects coming soon.</em>
+        </p>
+      </section>
+
+      <section id="publications">
+        <p class="eyebrow">02 &mdash; Publications</p>
+        <h2>Papers &amp; preprints</h2>
+        <p>
+          An up-to-date list of my papers and preprints lives on Google
+          Scholar.
+        </p>
+        <p>
+          <a
+            class="button"
+            href="https://scholar.google.com/citations?user=zvXbs5EAAAAJ&amp;hl=en"
+            >View on Google Scholar &rarr;</a
+          >
+        </p>
+      </section>
+
+      <section id="cv">
+        <p class="eyebrow">03 &mdash; CV</p>
+        <h2>Curriculum vitae</h2>
+        <p>
+          <a class="button" href="TalaYasenpoor_Resume.pdf">Download CV (PDF) &rarr;</a>
+          <a class="link-secondary" href="cv.html">View in browser</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; Tala Yasenpoor &middot; Storrs, CT</p>
+    </footer>
   </body>
- 
 </html>
