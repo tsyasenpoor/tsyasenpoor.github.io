@@ -1,20 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Tala Yasenpoor — CV</title>
-  <link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="styles.css" rel="stylesheet" type="text/css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
-</head>
-<body>
-  <div class="topnav">
-    <a href="index.html">Home</a>
-    <a class="active" href="cv.html">CV</a>
-  </div>
-  <iframe src="TalaYasenpoor_Resume.pdf" title="Resume PDF" width="100%" height="1000px" style="border:none; display:block;"></iframe>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>CV — Tala Yasenpoor</title>
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="site-nav" aria-label="Primary">
+      <div class="nav-inner">
+        <a href="index.html#about" class="brand">Tala Yasenpoor</a>
+        <nav>
+          <a href="index.html#about">About</a>
+          <a href="index.html#research">Research</a>
+          <a href="index.html#publications">Publications</a>
+          <a href="cv.html" aria-current="page">CV</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="cv-page">
+      <div class="cv-actions">
+        <a class="button" href="TalaYasenpoor_Resume.pdf">Download PDF &rarr;</a>
+        <a class="link-secondary" href="index.html">&larr; Back to home</a>
+      </div>
+      <iframe
+        class="cv-frame"
+        src="TalaYasenpoor_Resume.pdf"
+        title="Tala Yasenpoor CV"
+      ></iframe>
+    </main>
+  </body>
 </html>
